@@ -1,0 +1,207 @@
+{
+  "accounts": [
+    {
+      "id": "acc-lmcst-placement-1",
+      "userId": "1",
+      "provider": "imap",
+      "emailAddress": "placement@lmcst.ac.in",
+      "displayName": "LMCST Placement Cell",
+      "avatarUrl": "/images/landing/logo_cgpc.jpeg",
+      "encryptedCredentials": "U8CwnPNHN+b9d9ksbxMNYhDS/EjNpYYUWjPj0SC5/RWDtUC5npNVCtx0oMIxd+gdyg==",
+      "isDefault": true,
+      "connectionStatus": "connected",
+      "lastSyncedAt": "2026-09-22T12:55:56.412Z",
+      "createdAt": "2026-08-23T12:15:49.672Z",
+      "updatedAt": "2026-09-22T12:55:56.412Z",
+      "imapConfig": {
+        "host": "mail.lmcst.ac.in",
+        "port": 993,
+        "secure": true,
+        "user": "placement@lmcst.ac.in"
+      },
+      "smtpConfig": {
+        "host": "smtp.lmcst.ac.in",
+        "port": 465,
+        "secure": true,
+        "user": "placement@lmcst.ac.in"
+      }
+    },
+    {
+      "id": "acc-infosys-liaison-2",
+      "userId": "1",
+      "provider": "google",
+      "emailAddress": "coordinator.placement@gmail.com",
+      "displayName": "Placement Coordinator",
+      "encryptedRefreshToken": "RJ91+gEQDEl/Mkv7X4oMXhUsRNz2ehnTc5G6er7QBKAZaXsTmB23szYP0qeeeeRYQxCDgybpOLyCoCo=",
+      "isDefault": false,
+      "connectionStatus": "needs_attention",
+      "lastSyncedAt": "2026-09-22T12:10:49.672Z",
+      "createdAt": "2026-09-08T12:15:49.672Z",
+      "updatedAt": "2026-09-22T12:15:49.672Z",
+      "statusMessage": "Google authorization expired or revoked. Please reconnect."
+    }
+  ],
+  "messages": [
+    {
+      "id": "draft-1790079481565-lv7be",
+      "accountId": "acc-lmcst-placement-1",
+      "accountEmail": "placement@lmcst.ac.in",
+      "providerMessageId": "draft-1790079481565-lv7be",
+      "folder": "drafts",
+      "from": {
+        "name": "LMCST Placement Cell",
+        "email": "placement@lmcst.ac.in"
+      },
+      "to": [
+        {
+          "email": "hr@partnercompany.com"
+        }
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "Draft Campus Placement Schedule",
+      "snippet": "Draft details for upcoming placements...",
+      "bodyText": "Draft details for upcoming placements...",
+      "receivedAt": "2026-09-22T12:18:01.565Z",
+      "isRead": true,
+      "isStarred": false,
+      "hasAttachments": false,
+      "createdAt": "2026-09-22T12:18:01.565Z",
+      "updatedAt": "2026-09-22T12:18:01.565Z"
+    },
+    {
+      "id": "msg-001",
+      "accountId": "acc-lmcst-placement-1",
+      "accountEmail": "placement@lmcst.ac.in",
+      "providerMessageId": "provider-lmcst-msg-001",
+      "threadId": "thread-inf-2026-01",
+      "folder": "inbox",
+      "from": {
+        "name": "Rajesh Kumar (Infosys Recruitment)",
+        "email": "campus@infosys.com"
+      },
+      "to": [
+        {
+          "name": "LMCST Placement Cell",
+          "email": "placement@lmcst.ac.in"
+        }
+      ],
+      "subject": "Campus Recruitment Drive 2026 — Schedule & Shortlist Confirmation",
+      "snippet": "Dear Placement Officer, We have reviewed the initial candidate pool from Lourdes Mount College of Science & Technology for the Specialist Programmer and Digital Specialist Engineer roles...",
+      "bodyHtml": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #1e293b;\">\n        <p>Dear Placement Officer,</p>\n        <p>We are pleased to confirm that <strong>Infosys Technologies</strong> will conduct on-campus / hybrid evaluations for the <strong>2026 Graduating Batch</strong> on <strong>October 15, 2026</strong>.</p>\n        <p>The selection process comprises:</p>\n        <ol style=\"margin-left: 20px;\">\n          <li>Online Coding Assessment (90 mins - DSA & Logic)</li>\n          <li>Technical Interview (Virtual / In-person)</li>\n          <li>HR Discussion & Document Verification</li>\n        </ol>\n        <p>Please find attached the detailed eligibility criteria, package structures (₹9.5 LPA for SP, ₹6.5 LPA for DSE), and student registration portal instructions.</p>\n        <p>Kindly verify that all students update their CGPA and active backlogs prior to the screening deadline.</p>\n        <br/>\n        <p>Warm regards,<br/><strong>Rajesh Kumar</strong><br/>Head of Campus Talent Acquisition<br/>Infosys Limited, Bangalore</p>\n      </div>",
+      "bodyText": "Dear Placement Officer,\n\nWe are pleased to confirm that Infosys Technologies will conduct on-campus evaluations on October 15, 2026...",
+      "receivedAt": "2026-09-22T11:40:49.672Z",
+      "isRead": true,
+      "isStarred": false,
+      "isImportant": true,
+      "hasAttachments": true,
+      "attachments": [
+        {
+          "id": "att-inf-01",
+          "filename": "Infosys_Campus_Drive_Guidelines_2026.pdf",
+          "contentType": "application/pdf",
+          "size": 485000
+        },
+        {
+          "id": "att-inf-02",
+          "filename": "Eligible_Branches_Matrix.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "size": 142000
+        }
+      ],
+      "createdAt": "2026-09-22T11:40:49.672Z",
+      "updatedAt": "2026-09-22T12:18:31.714Z"
+    },
+    {
+      "id": "msg-002",
+      "accountId": "acc-lmcst-placement-1",
+      "accountEmail": "placement@lmcst.ac.in",
+      "providerMessageId": "provider-lmcst-msg-002",
+      "threadId": "thread-tcs-02",
+      "folder": "inbox",
+      "from": {
+        "name": "Sarah Johnson",
+        "email": "sarah.johnson@tcs.example.com"
+      },
+      "to": [
+        {
+          "name": "Placement Officer",
+          "email": "placement@lmcst.ac.in"
+        }
+      ],
+      "subject": "Interview Schedule Confirmation — TCS Digital Batch 2026",
+      "snippet": "Please find the updated technical interview panel slots for tomorrow. We have scheduled 42 students for round 1...",
+      "bodyHtml": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #1e293b;\">\n        <p>Hi Team,</p>\n        <p>Please find the updated technical interview panel slots for tomorrow. We have scheduled 42 students for round 1 starting at 9:30 AM IST.</p>\n        <p>Meeting links for panels A, B, and C have been shared with the student coordinators.</p>\n        <br/>\n        <p>Best regards,<br/><strong>Sarah Johnson</strong><br/>Talent Partner - Higher Education Relations</p>\n      </div>",
+      "receivedAt": "2026-09-22T10:15:49.672Z",
+      "isRead": true,
+      "isStarred": false,
+      "isImportant": true,
+      "hasAttachments": false,
+      "createdAt": "2026-09-22T10:15:49.672Z",
+      "updatedAt": "2026-09-23T05:00:10.413Z"
+    },
+    {
+      "id": "msg-003",
+      "accountId": "acc-infosys-liaison-2",
+      "accountEmail": "coordinator.placement@gmail.com",
+      "providerMessageId": "provider-google-msg-003",
+      "threadId": "thread-redteam-03",
+      "folder": "inbox",
+      "from": {
+        "name": "Anand Kumar",
+        "email": "anand.kumar@redteam.example"
+      },
+      "to": [
+        {
+          "name": "Coordinator",
+          "email": "coordinator.placement@gmail.com"
+        }
+      ],
+      "subject": "Cybersecurity Analyst & Penetration Tester Hiring — RedTeam Academy",
+      "snippet": "Thank you for hosting our preliminary webinar. We would like to initiate the technical assessment for 28 shortlisted students next Tuesday...",
+      "bodyHtml": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #1e293b;\">\n        <p>Dear Coordinator,</p>\n        <p>Thank you for hosting our preliminary webinar. We would like to initiate the technical assessment for 28 shortlisted students next Tuesday.</p>\n        <p>Roles: <strong>Associate Security Analyst</strong> (₹7 LPA) and <strong>Vulnerability Researcher</strong> (₹8.5 LPA).</p>\n        <br/>\n        <p>Regards,<br/><strong>Anand Kumar</strong><br/>Head of Talent Acquisition, RedTeam Hacker Academy</p>\n      </div>",
+      "receivedAt": "2026-09-21T12:15:49.672Z",
+      "isRead": true,
+      "isStarred": true,
+      "isImportant": false,
+      "hasAttachments": true,
+      "attachments": [
+        {
+          "id": "att-red-01",
+          "filename": "Job_Description_Security_Analyst.pdf",
+          "contentType": "application/pdf",
+          "size": 320000
+        }
+      ],
+      "createdAt": "2026-09-21T12:15:49.672Z",
+      "updatedAt": "2026-09-21T12:15:49.672Z"
+    },
+    {
+      "id": "msg-004",
+      "accountId": "acc-lmcst-placement-1",
+      "accountEmail": "placement@lmcst.ac.in",
+      "providerMessageId": "provider-lmcst-msg-004",
+      "threadId": "thread-sent-01",
+      "folder": "sent",
+      "from": {
+        "name": "LMCST Placement Cell",
+        "email": "placement@lmcst.ac.in"
+      },
+      "to": [
+        {
+          "name": "Campus HR",
+          "email": "campus@infosys.com"
+        }
+      ],
+      "subject": "Re: Campus Recruitment Drive 2026 — Verified Student Database",
+      "snippet": "Dear Rajesh, We have uploaded the verified batch profile of 280 eligible engineering students. Please find the credentials for the database access...",
+      "bodyHtml": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #1e293b;\">\n        <p>Dear Rajesh,</p>\n        <p>We have uploaded the verified batch profile of 280 eligible engineering students. Please find the credentials for the database access.</p>\n        <p>Looking forward to a successful placement season.</p>\n        <br/>\n        <p>Sincerely,<br/><strong>Placement Coordinator</strong><br/>LMCST Trivandrum</p>\n      </div>",
+      "receivedAt": "2026-09-20T12:15:49.672Z",
+      "isRead": true,
+      "isStarred": false,
+      "hasAttachments": false,
+      "createdAt": "2026-09-20T12:15:49.672Z",
+      "updatedAt": "2026-09-20T12:15:49.672Z"
+    }
+  ]
+}

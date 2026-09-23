@@ -1,0 +1,104 @@
+{
+  "conversations": [
+    {
+      "id": 1,
+      "employer_id": 1,
+      "company_id": 1,
+      "company_name": "RedTeam Hacker Academy",
+      "contact_name": "Anand Kumar",
+      "contact_email": "anand.hr@redteam.example",
+      "contact_phone": "+91 98765 43210",
+      "subject": "Campus Placement Drive 2026 Schedule & Lab Requirements",
+      "status": "open",
+      "assigned_to": 1,
+      "assigned_name": "Placement Director",
+      "created_at": "2026-09-18T10:00:00Z",
+      "updated_at": "2026-09-19T14:30:00Z",
+      "last_message_at": "2026-09-19T14:30:00Z",
+      "last_message_preview": "Thank you for confirming the dates. We will arrange the auditorium and computer labs accordingly.",
+      "last_sender_type": "staff",
+      "unread_by_staff": false,
+      "unread_by_employer": true,
+      "staff_unread_count": 0,
+      "employer_unread_count": 1
+    },
+    {
+      "id": 2,
+      "employer_id": 2,
+      "company_id": 2,
+      "company_name": "Infosys Technologies",
+      "contact_name": "Rajesh Kumar",
+      "contact_email": "campus@infosys.com",
+      "contact_phone": "+91 9876543210",
+      "subject": "Campus Hiring 2026: Student Batch Statistics Request",
+      "status": "open",
+      "assigned_to": 1,
+      "assigned_name": "Placement Director",
+      "created_at": "2026-09-20T09:15:00Z",
+      "updated_at": "2026-09-23T14:30:59.761Z",
+      "last_message_at": "2026-09-23T14:30:59.761Z",
+      "last_message_preview": "Thank you for reaching out. We would be happy to discuss your campus recruitment requirements.",
+      "last_sender_type": "staff",
+      "unread_by_staff": false,
+      "unread_by_employer": true,
+      "staff_unread_count": 0,
+      "employer_unread_count": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 101,
+      "conversation_id": 1,
+      "sender_type": "employer",
+      "sender_id": "emp-1",
+      "sender_name": "Anand Kumar",
+      "sender_email": "anand.hr@redteam.example",
+      "body": "Hello Placement Cell,\n\nWe are planning our upcoming campus drive for Cybersecurity Analysts and Systems Engineers. We would like to confirm whether October 5th, 2026 is suitable for hosting the online test and preliminary technical interview round.\n\nCould you also verify if Computer Labs A and B with 120 systems will be accessible for the coding round?\n\nBest regards,\nAnand Kumar\nHead of Talent Acquisition, RedTeam Hacker Academy",
+      "read_at": "2026-09-18T11:15:00Z",
+      "created_at": "2026-09-18T10:00:00Z",
+      "attachments": [
+        {
+          "id": "att-1",
+          "name": "Cybersecurity_Campus_JD_2026.pdf",
+          "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "size": "450 KB",
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "conversation_id": 1,
+      "sender_type": "staff",
+      "sender_id": "sales-1",
+      "sender_name": "Placement Director",
+      "sender_email": "placement@lmcst.ac.in",
+      "body": "Dear Anand,\n\nOctober 5th, 2026 is confirmed on our placement calendar. Both Computer Labs A and B (equipped with 120 high-speed networked terminals) have been reserved for your technical assessment. Our student coordinators will assist your technical team upon arrival.\n\nLooking forward to a successful recruitment drive.\n\nWarm regards,\nPlacement & Corporate Relations Cell\nLMCST Trivandrum",
+      "read_at": null,
+      "created_at": "2026-09-19T14:30:00Z"
+    },
+    {
+      "id": 201,
+      "conversation_id": 2,
+      "sender_type": "employer",
+      "sender_id": "emp-2",
+      "sender_name": "Rajesh Kumar",
+      "sender_email": "campus@infosys.com",
+      "body": "Greetings from Infosys Campus Recruitment Team.\n\nAs part of our preliminary planning for the 2026 batch recruitment drive, could you please share the breakdown of eligible students across Computer Science, Information Technology, and Electronics with an aggregate of 65% and above?\n\nThank you,\nRajesh Kumar\nHead of Campus Talent Acquisition",
+      "read_at": "2026-09-23T14:30:53.826Z",
+      "created_at": "2026-09-20T09:15:00Z"
+    },
+    {
+      "sender_type": "staff",
+      "sender_id": "sales-2",
+      "sender_name": "abhinav ajay",
+      "sender_email": "placement@lmcst.ac.in",
+      "body": "Thank you for reaching out. We would be happy to discuss your campus recruitment requirements.",
+      "attachments": [],
+      "read_at": null,
+      "id": 202,
+      "conversation_id": 2,
+      "created_at": "2026-09-23T14:30:59.761Z"
+    }
+  ]
+}
